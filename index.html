@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>
+            Portfolio
+        </title>
+
+        <!-- While all my code is origional I did reference several sites for information and to learn proper syntax (videos primarily) -->
+        <!-- Below is the list of sites I referenced :
+        http://getbootstrap.com/
+        http://www.w3schools.com/
+        Bootstrapbay.com : https://www.youtube.com/channel/UCQ7erinMCeODr6XdPknmj7w
+        -->
+
+        <link href="http://fonts.googleapis.com/css?family=Roboto:100,200" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <!-- Code for header of page -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12 header">
+                        <a href="index.html">
+                            <img class="logo" alt="Logo" src="images/logo.png">
+                        </a>
+                        <h1 class="header-name">
+                            PAUL MASSE
+                        </h1>
+                        <h2 class="header-title">
+                            FRONT-END NOOB
+                        </h2>
+                        <nav class="navbar navbar-default">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-options">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="navbar-options">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li>
+                                        <a href="index.html">
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            Examples
+                                            <strong class="caret">
+                                            </strong>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#">
+                                                    Example 1
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Example 2
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Example 3
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            Contact
+                                            <strong class="caret">
+                                            </strong>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#" data-toggle="modal" data-target="#myModal">
+                                                    Email
+                                                    <i class="fa fa-envelope">
+                                                    </i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="http://facebook.com" target="_blank">
+                                                    Facebook
+                                                    <i class="fa fa-facebook-official">
+                                                    </i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="http://twitter.com" target="_blank">
+                                                    Twitter
+                                                    <i class="fa fa-twitter">
+                                                    </i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="http://github.com" target="_blank">
+                                                    Github
+                                                    <i class="fa fa-github">
+                                                    </i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Main picture code -->
+            <div class="container main-picture">
+                <div class="row">
+                    <img class="img-responsive center-block" src="images/main-picture-small.jpg" srcset="images/main-picture-medium-1x.jpg 1x, images/main-picture-large-2x.jpg 2x"   alt="There are 3 devices on a desk, a laptop, a tablet, and a smartphone.">
+                </div>
+            </div>
+
+            <!-- Featured Work/Example Code -->
+            <div class="container-fluid example-gallery">
+                <div class="row">
+                    <div class="panel-heading">
+                        <h3 class="featured-work">
+                            Featured Work
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="container-fluid examples">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <a href="#">
+                                            <img class="img-responsive center-block" src="images/example1-picture-small.jpg" srcset="images/example1-picture-medium-1x.jpg 1x, images/example1-picture-large-2x.jpg 2x" alt="On a pine table there is a laptop, a smartphone, and a cup of espresso.">
+                                        </a>
+                                        <h4>
+                                            Example #1
+                                        </h4>
+                                        <h5>
+                                            <a href="#">
+                                                http://paulmasse.ca/example1
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <a href="#">
+                                            <img class="img-responsive center-block" src="images/example2-picture-small.jpg-picture-small.jpg" srcset="images/example2-picture-medium-1x.jpg 1x, images/example2-picture-large-2x.jpg 2x" alt="White laptop on a whie desk, a vase with yellow flowers sit beside it.">
+                                        </a>
+                                        <h4>
+                                            Example #2
+                                        </h4>
+                                        <h5>
+                                            <a href="#">
+                                                http://paulmasse.ca/example2
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <a href="#">
+                                            <img class="img-responsive center-block" src="images/example3-picture-small.jpg-picture-small.jpg" srcset="images/example3-picture-medium-1x.jpg 1x, images/example3-picture-large-2x.jpg 2x" alt="White laptop on a whie desk, a vase with yellow flowers sit beside it.">
+                                        </a>
+                                        <h4>
+                                            Example #3
+                                        </h4>
+                                        <h5>
+                                            <a href="#">
+                                                http://paulmasse.ca/example3
+                                            </a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Email Submission Modal Code -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">
+                                Email Me
+                            </h4>
+                        </div>
+                        <div class="modal-body">
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="user-email" class="col-sm-2 control-label">
+                                        Email
+                                    </label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control email-inputbox" id="user-email" placeholder="someone@example.com">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="user-message" class="col-sm-2 control-label">
+                                        Message
+                                    </label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control message-inputbox" id="user-message" rows="5">
+                                        </textarea>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                Close
+                            </button>
+
+                            <!-- Used data-dismiss to simulate submitting email -->
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
